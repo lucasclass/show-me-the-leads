@@ -2,31 +2,63 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width">
 <title>Mais do Mundo</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Mais do Mundo</h1>
 
-    <!-- Exemplo de Formulário Gama -->
+<body>
+
+<!-- Cabeçalho -->
+  <header>
+
+  </header>
+
+<!-- Corpo -->
+    <div id="Lorem_ipsum_dolor_sit_amet_con_b">
+      <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</span>
+    </div>
+
+    <div id="Lorem_ipsum_dolor_sit_amet_con">
+      <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</span>
+    </div>
+
+<!-- Formulário Gama -->    
+    <div id="Formulario">
     <form method="POST" action="https://smtl.gama.academy/leads/bfeee314-b7e1-11ea-8228-89cff86db9a0">
+      
+      <span>Faça o quiz e descubra!</span><br>
+
+      <label for="name">Nome:</label>
       <input
+        id="name"
         name="name"
         type="text"
         pattern="^\D{2,}\s[\D\s]{2,}$"
         title="Digite seu nome completo"
         required
-      />
+      /><br>
+
+      <label for="email">E-mail:</label>
       <input
+        id="email"
         name="email"
         type="email"
         title="Digite um email válido"
         required
-      />
+      /><br>
+      
+
+      <input name="redirectTo" type="hidden" value="https://www.buzzfeed.com/br" />
+      <input name="debugMode" type="hidden" value="true" />
+      <input type="submit" value="Iniciar">
     </form>
+    </div>
 
+<!-- Rodapé -->
+    <div id="rodape">
+
+    </div>
+ 
   </body>
-</html>
-
-
-</body>
 </html>
