@@ -1,6 +1,4 @@
 #site{
-    width:1920px;
-    height:1080px;
     position: absolute;
     margin-top:0;
     margin-left:auto;
@@ -9,13 +7,22 @@
     background-color: rgba(225,225,225,1)
   }
 
-#Lorem_ipsum_dolor_sit_amet_con_b{
+#Cabecalho{
     left: 162px;
-    top: 100px;
+    top: 50px;
     position: absolute;
     overflow: visible;
     width: 675px;
-    height: 274px;
+    height: 116px;
+}
+
+#Lorem_ipsum_dolor_sit_amet_con_b{
+    left: 162px;
+    top: 216px;
+    position: absolute;
+    overflow: visible;
+    width: 675px;
+    height: 244px;
     line-height: 54px;
     margin-top: -2px;
     text-align: left;
@@ -28,7 +35,7 @@
 
 #Lorem_ipsum_dolor_sit_amet_con{
     left: 162px;
-    top: 384px;
+    top: 435px;
     position: absolute;
     overflow: visible;
     width: 647px;
@@ -45,7 +52,7 @@
 
 #Formulario{
     left: 162px;
-    top: 617px;
+    top: 683px;
     position: absolute;
     overflow: visible;
     width: 647px;
